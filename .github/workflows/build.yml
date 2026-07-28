@@ -18,15 +18,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build web app
-        run: npx vite build
+      - name: Build
+        run: npm run build
 
-      - name: Build Electron Windows
-        run: npx electron-builder --win --config electron-builder.yml
+      - name: Build Windows EXE
+        run: npx electron-builder --win
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload EXE artifact
+      - name: Upload EXE
         uses: actions/upload-artifact@v4
         with:
           name: envkar-windows

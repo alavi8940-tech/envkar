@@ -5,8 +5,10 @@
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:win": "vite build && electron-builder --win",
+    "build:web": "vite build",
+    "build:electron": "tsc -p tsconfig.electron.json",
+    "build:win": "npm run build:web && npm run build:electron && electron-builder --win",
+    "build": "npm run build:web && npm run build:electron",
     "preview": "vite preview"
   },
   "dependencies": {
