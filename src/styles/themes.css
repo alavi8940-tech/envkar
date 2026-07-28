@@ -1,0 +1,94 @@
+[data-theme="dark"] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --bg-hover: #475569;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #22c55e;
+  --accent-hover: #16a34a;
+  --accent-muted: rgba(34, 197, 94, 0.15);
+  --border: #334155;
+  --border-light: #475569;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --info: #3b82f6;
+  --success: #22c55e;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  --bg-hover: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent: #16a34a;
+  --accent-hover: #15803d;
+  --accent-muted: rgba(22, 163, 74, 0.1);
+  --border: #e2e8f0;
+  --border-light: #cbd5e1;
+  --danger: #dc2626;
+  --warning: #d97706;
+  --info: #2563eb;
+  --success: #16a34a;
+}
+
+[data-theme="green"] {
+  --bg-primary: #052e16;
+  --bg-secondary: #14532d;
+  --bg-tertiary: #166534;
+  --bg-hover: #15803d;
+  --text-primary: #f0fdf4;
+  --text-secondary: #86efac;
+  --text-muted: #4ade80;
+  --accent: #4ade80;
+  --accent-hover: #22c55e;
+  --accent-muted: rgba(74, 222, 128, 0.15);
+  --border: #166534;
+  --border-light: #15803d;
+  --danger: #f87171;
+  --warning: #fbbf24;
+  --info: #60a5fa;
+  --success: #4ade80;
+}
+
+[data-theme="blue"] {
+  --bg-primary: #0c1929;
+  --bg-secondary: #1e3a5f;
+  --bg-tertiary: #2d4a7c;
+  --bg-hover: #3d5a8c;
+  --text-primary: #e0f2fe;
+  --text-secondary: #7dd3fc;
+  --text-muted: #38bdf8;
+  --accent: #38bdf8;
+  --accent-hover: #0ea5e9;
+  --accent-muted: rgba(56, 189, 248, 0.15);
+  --border: #2d4a7c;
+  --border-light: #3d5a8c;
+  --danger: #f87171;
+  --warning: #fbbf24;
+  --info: #38bdf8;
+  --success: #4ade80;
+}
+
+[data-theme="purple"] {
+  --bg-primary: #1a0a2e;
+  --bg-secondary: #2d1b4e;
+  --bg-tertiary: #3d2b5e;
+  --bg-hover: #4d3b6e;
+  --text-primary: #f3e8ff;
+  --text-secondary: #c084fc;
+  --text-muted: #a855f7;
+  --accent: #a855f7;
+  --accent-hover: #9333ea;
+  --accent-muted: rgba(168, 85, 247, 0.15);
+  --border: #3d2b5e;
+  --border-light: #4d3b6e;
+  --danger: #f87171;
+  --warning: #fbbf24;
+  --info: #60a5fa;
+  --success: #4ade80;
+}
